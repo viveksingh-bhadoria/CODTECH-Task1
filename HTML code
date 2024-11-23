@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/af6535a46b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div id="header" >
+      <div class="container">
+          <nav>
+            <img src="images/name plus logo .png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+          </nav> 
+          <div class="header-text">
+            <p>Frontend Developer</p>
+            <h1>Hi, I'm<span> Vivek Singh</span><br>Bhadoria</h1>
+          </div>
+      </div>
+</div> 
+<!--------------------------------ABOUT------------------------>
+<div id="about">
+     <div class="container">
+        <div class="row">
+           <div class="about-col-1">
+            <img src="images/men's portfolio.png">
+           </div>
+           <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At fugiat laboriosam mollitia qui aspernatur distinctio commodi libero repellendus sequi? Unde repellendus sequi nostrum accusantium quae sunt, quo atque iure distinctio.</p>
+            <div class="tab-titles">
+                <p class="tab-links active-link">Skills</p>
+            </div>
+            <div>
+                <div class="tab-contents">
+                    <ul>
+                        <li><span>Web development</span><br>Designing Web interface</li>
+                        <li><span>Graphic Design</span><br>Designing a logo and poster</li>
+                    </ul>
+                </div>
+            </div>
+           </div> 
+        </div>
+     </div>
+</div>
+<!-----------------------services------------------------->
+<div id="services">
+     <div class="container">
+         <h1 class="sub-title">My Services</h1>
+         <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ex, natus eius esse tempora dolores similique, tenetur aliquid cupiditate voluptates est exercitationem odit?</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Graphic Design </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ex, natus eius esse tempora dolores similique, tenetur aliquid cupiditate voluptates est exercitationem odit?</p>
+                <a href="#">Learn more</a>
+            </div>
+         </div>
+     </div>
+</div> 
+<!-----------------portfolio------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work2.jpg">
+                <div class="layer">
+                    <h3>Social Media Website</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work1.jpg">
+                <div class="layer">
+                    <h3>Graphic Design</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!---------------------contact--------------------->
+<div class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>vineetbhadoria01@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>626127XXXX</p>
+                <div class="social-icon">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <a href="" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright $Vivek. Made by Vivek Bhadoria</p>
+    </div>
+</div>
+<script>
+    var sidemenu = document.getElementryById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
